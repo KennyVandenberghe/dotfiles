@@ -1,5 +1,5 @@
 # Set `$PATH`
-export PATH="$HOME/bin:/usr/local/bin:/usr/local/share/npm/bin:$PATH"
+export PATH="$HOME/bin:/usr/local/bin:/usr/local/share/npm/bin:/usr/local/opt/coreutils/libexec/gnubin/:$PATH"
 
 # Load the shell dotfiles, and then some:
 # * ~/.path can be used to extend `$PATH`.
