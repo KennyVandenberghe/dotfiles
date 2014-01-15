@@ -17,6 +17,7 @@ alias h="history"
 alias j="jobs"
 
 alias gs="git status"
+alias gc="git commit -a -m "
 
 # Detect which `ls` flavor is in use
 if ls --color > /dev/null 2>&1; then # GNU `ls`
