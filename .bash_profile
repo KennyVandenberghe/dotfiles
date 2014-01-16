@@ -1,5 +1,6 @@
 # Set `$PATH`
-export PATH="$HOME/bin:/usr/local/bin:/usr/local/share/npm/bin:$(cd $(which gem)/..; pwd):/usr/local/opt/coreutils/libexec/gnubin/:$PATH"
+RUBY_BINDIR=`brew info ruby|grep /bin|tr -d ' '`
+export PATH="$HOME/bin:/usr/local/bin:/usr/local/share/npm/bin:$RUBY_BINDIR:/usr/local/opt/coreutils/libexec/gnubin/:$PATH"
 
 # Load the shell dotfiles, and then some:
 # * ~/.path can be used to extend `$PATH`.
