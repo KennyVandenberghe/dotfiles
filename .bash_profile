@@ -45,4 +45,4 @@ if [ -f $(brew --prefix)/etc/bash_completion ]; then
 fi
 
 # z
-`brew --prefix`/etc/profile.d/z.sh
+. `brew --prefix`/etc/profile.d/z.sh
