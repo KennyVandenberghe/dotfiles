@@ -34,5 +34,8 @@ install tree
 install node
 install ruby
 
+# Stuff
+install z
+
 # Remove outdated versions from the cellar
 cleanup
